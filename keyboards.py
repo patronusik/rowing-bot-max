@@ -9,7 +9,7 @@ subscribe_kb = InlineKeyboardMarkup(inline_keyboard=[
 
 # --- ГЛАВНОЕ МЕНЮ ---
 main_menu_kb = InlineKeyboardMarkup(inline_keyboard=[
-    [InlineKeyboardButton(text="🤸‍♀️ Об учреждении", callback_data="about")],
+    [InlineKeyboardButton(text="🛶 Об учреждении", callback_data="about")],
     [InlineKeyboardButton(text="📍 Адреса учреждения", callback_data="addresses")],
     [InlineKeyboardButton(text="💳 Платные услуги", url="https://rowingschool.ru/information/pay")],
     [InlineKeyboardButton(text="❓ Часто задаваемые вопросы", callback_data="support_menu")],
